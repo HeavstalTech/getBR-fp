@@ -1,0 +1,23 @@
+name: get br Fp
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-puppeteer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      - name: Start FP sc
+        run: node scripts/get-fp.js
