@@ -1,0 +1,22 @@
+{
+  "name": "Verselor-V1",
+  "version": "0.0.1-beta",
+  "description": "A script to generate a broswer fingerprint hash, this repo is completely unnecessary though 😂, by Heavstal Tech- 2026",
+  "main": "scripts/get-fp.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "imports": {
+    "#*": "./*"
+  },
+  "scripts": {
+    "start": "node scripts/get-fp.js"
+  },
+  "keywords": ["ES Module", "heavstal-tech", "Browser FP"]
+  "author": "HEAVSTAL TECH",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+      "puppeteer" ":^24.42.0"
+  }
+}
