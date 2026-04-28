@@ -16,7 +16,7 @@ import puppeteer from 'puppeteer'
   await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36")
   await page.setViewport({ width: 1920, height: 1080 })
   // await page.goto("https://heavstal.com.ng")
-  await page.goto("https://exmaple.com")
+  await page.goto("https://example.com")
 
   var FP = await page.evaluate(async () => {
     async function getFP() {
