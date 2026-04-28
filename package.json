@@ -1,5 +1,5 @@
 {
-  "name": "Browser FingerPrint Getter",
+  "name": "BR FP Getter",
   "version": "0.0.1-beta",
   "description": "A script to generate a broswer fingerprint hash, this repo is completely unnecessary though 😂, by Heavstal Tech- 2026",
   "main": "scripts/get-fp.js",
@@ -17,6 +17,6 @@
   "author": "HEAVSTAL TECH",
   "license": "MIT",
   "dependencies": {
-      "puppeteer" ":^24.42.0"
+    "puppeteer": "^24.42.0"
   }
 }
