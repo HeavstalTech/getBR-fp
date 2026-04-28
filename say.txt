@@ -1,0 +1,1 @@
+Optionally use the package.json in the root and update GitHub actions to install dependencies
