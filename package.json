@@ -15,7 +15,7 @@
   },
   "keywords": ["ES Module", "heavstal-tech", "Browser FP"]
   "author": "HEAVSTAL TECH",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "dependencies": {
       "puppeteer" ":^24.42.0"
   }
