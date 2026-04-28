@@ -17,7 +17,7 @@ jobs:
           node-version: '24'
 
       - name: Install Puppeteer
-        run: npm install
+        run: npm ci
 
       - name: Start FP sc
         run: node scripts/get-fp.js
