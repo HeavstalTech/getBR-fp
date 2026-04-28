@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node scripts/get-fp.js"
   },
-  "keywords": ["ES Module", "heavstal-tech", "Browser FP"]
+  "keywords": ["ES Module", "heavstal-tech", "Browser FP"],
   "author": "HEAVSTAL TECH",
   "license": "MIT",
   "dependencies": {
